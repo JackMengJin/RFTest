@@ -61,7 +61,7 @@ test04
     ...    ELSE    log    测试不通过
     input text    kw    selenium如何使用
     Click Element    //*[@id="su"]    # 点击百度一下
-    Sleep    4
+    Sleep    5
     Close All Browsers    # 关闭浏览器
         ${/}
 
